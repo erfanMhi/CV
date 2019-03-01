@@ -1,0 +1,333 @@
+%% The MIT License (MIT)
+%%
+%% Copyright (c) 2015 Daniil Belyakov
+%%
+%% Permission is hereby granted, free of charge, to any person obtaining a copy
+%% of this software and associated documentation files (the "Software"), to deal
+%% in the Software without restriction, including without limitation the rights
+%% to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+%% copies of the Software, and to permit persons to whom the Software is
+%% furnished to do so, subject to the following conditions:
+%%
+%% The above copyright notice and this permission notice shall be included in all
+%% copies or substantial portions of the Software.
+%%
+%% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+%% IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+%% FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+%% AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+%% LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+%% OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+%% SOFTWARE.
+
+% The font could be set to Windows-specific Calibri by using the 'calibri' option
+\documentclass[]{mcdowellcv}
+
+% For mathematical symbols
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage{blindtext}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+
+% Set applicant's personal data for header
+\name{Erfan Miahi}
+\address{No. 33, Bayani St. \newline Rasht, 41946-43546 Iran} 
+\webpage{}
+\contacts{+98 936 129 2690 \linebreak \href{mailto:mhi.erfan1@gmail.com}{mhi.erfan1@gmail.com}}
+\github{\href{https://erfanmhi.github.io}{erfanmhi.github.io}}
+
+\begin{document}
+
+	% Print the header
+	\makeheader
+	
+	% Print the content
+
+    \begin{cvsection}{Education}
+    	\begin{cvsubsection}{University of Guilan}{Rasht, Iran}{Sep 2015 -- May 2019 (Expected)}
+    	    \setlength{\columnsep}{-2.1in}
+    		\begin{itemize}
+    			\item \textbf{B.Sc in Software Engineering, GPA: 19.43/20 }
+    			\item \textbf{Graduate Coursework:} Artificial Intelligence (20/20), Data Structure (20/20), Algorithm Design (20/20), Advanced Programming (20/20), Foundations of Data Mining (20/20), Computational Intelligence (20/20), Engineering Mathematics (20/20), Differential Equations (20/20), Theory of Language and Machines (19.5/20), Engineering Statistics and Probability (20/20), English as a Foreign Language (20/20), Specialized English Language (18.75/20), Computer Vision(19.5/20), Discrete Mathematics (19.75/20), Computer Architecture (20/20), Natural Language Processing (20/20).
+    		\end{itemize}
+    	\end{cvsubsection}
+    	
+    	\begin{cvsubsection}{Shahid Babayi High School}{Qazvin, Iran}{Sep 2014 -- May 2015}
+    	    \setlength{\columnsep}{-2.1in}
+    		\begin{itemize}
+    			\item \textbf{Pre-University Diploma in Mathematics, GPA: 18.67/20}
+    			\item A branch of the National Organization for Development of Exceptional Talents (NODET) 
+    		\end{itemize}
+    	\end{cvsubsection}
+    	
+    	\begin{cvsubsection}{Shahid Babayi High School}{Qazvin, Iran}{Sep 2011 -- May 2014}
+    	    \setlength{\columnsep}{-2.1in}
+    		\begin{itemize}
+    			\item \textbf{Diploma in Mathematics and Physics Discipline GPA: 18.06/20}
+    			\item A branch of the National Organization for Development of Exceptional Talents (NODET) 
+    		\end{itemize}
+    	\end{cvsubsection}
+    \end{cvsection}
+	
+    \begin{cvsection}{Research Interests}
+        \begin{cvsubsection}{}{}{}
+            \begin{multicols}{2}
+                \begin{itemize}
+            		\item Metaheuristic Algorithms
+            		\item Deep learning
+            		\item Neural Architecture Search
+                    \item Machine learning
+                    \item Meta Learning
+            		\item Computer vision
+            		\item Robotics
+                    \item Natural language processing
+                \end{itemize}
+            \end{multicols}
+        \end{cvsubsection}
+    \end{cvsection}
+    
+    \begin{cvsection}{Skills and Expertise}
+    	\begin{cvsubsection}{}{}{}
+    	\end{cvsubsection}
+    	\begin{itemize}
+    	    \item \textbf{Programming Languages}
+    	    \begin{itemize}
+    	        \item \textbf{Python:} It's my main programming language, I'm using it about 3 years now and I'm expert in Keras, Matplotlib, Seaborn, Tensorflow, Scikit-learn, Django, Numpy and Pandas library, Also familiar with NLTK, Spacy, Pytorch and Opencv.
+    	        \item \textbf{Matlab:} Used for solving assignments of Machine Learning course by Dr. Andrew Ng, Also for Computer Vision course in my university. 
+    	        \item \textbf{C++:} I Used it in Partner Robot Challenge, also I used it for teaching algorithms and solving assignments of introduction to programming class. 
+    	        \item \textbf{Java:} Intermediate in Javafx, Object-oriented programming, multi-threading and socket programming and I used it for doing assignments of Data structures and Advanced Programming class, also I used it for teaching algorithms, data structures and various concepts in object-oriented programming.
+    	        \item \textbf{Other languages}: TypeScript, JavaScript, Assembly, VHDL.
+    	    \end{itemize}
+    	    \item \textbf{Deep Learning:} Expert in Keras and Tensorflow and familiar with Pytorch framework.
+    	    \item \textbf{Image Processing:} Expert in Convolutional Neural Network Algorithms, familiar with Opencv and Computer Vision tools in Matlab.
+    	    \item \textbf{Data Mining:} Expert in Pandas, Seaborn and Matplotlib, also familiar with Weka and MATLAB.
+    	    \item \textbf{Machine Learning:} Expert in Scikit-learn library and familiar with most of the ML algorithms like Decision Trees, Random Forest, SVM.
+    	    \item \textbf{Robot Operating System (ROS):} Intermediate in working with ROS.
+    	    \item \textbf{Natural Language Processing:} Expert in using deep learning for NLP (I learned this from Deep Learning for NLP course by Stanford University.), familiar with NLTK and Spacy libraries.
+            \item \textbf{Databases:} Expert in Mysql, intermediate in Neo4j and familiar with MongoDB.
+            \item \textbf{Server Side Programming:} Expert in Django(Python) and familiar with Flask(Python) and Spring(Java) framework.
+            \item \textbf{Front-end Programming:} Expert in Angular 5, HTML, CSS, Javascript, Typescript.
+    	    \item \textbf{Productivity Software:} \LaTeX\ ,  Microsoft Office (Word, PowerPoint, Excel),  PhpMyAdmin, Jupyter Notebook.
+    	    \item \textbf{Operating System:} Proficient in GNU (and also KDE) Linux (3 years of active usage) and Microsoft Windows systems. Worked with various versions and flavors of Linux and UNIX-based operating systems as well as different versions of Microsoft Window.
+    	    \end{itemize}
+    
+    \end{cvsection}
+    
+    \newpage
+	\begin{cvsection}{Certifications}
+    		\begin{cvsubsection}{Deep Learning Specialization}{Coursera, by Andrew Ng}{Oct 2018}
+                Deep Learning Specialization consists of five different courses:
+    			\begin{itemize}
+                \item Neural Networks and Deep Learning (\href{https://www.coursera.org/account/accomplishments/certificate/Q466THNX9825}{certification})
+                \item Improving Deep Neural Networks: Hyperparameter tuning Regularization and Optimization (\href{https://www.coursera.org/account/accomplishments/verify/BKWJS632W3V8}{certification})
+    			\item Structuring Machine Learning Projects (\href{https://www.coursera.org/account/accomplishments/certificate/UEF3FJTFZSFD}{certification})
+    			\item Convolutional Neural Networks (\href{https://www.coursera.org/account/accomplishments/certificate/MEWWQGYXJX2M}{certification})
+    			\item Sequence Models (\href{https://www.coursera.org/account/accomplishments/certificate/RDANP785FVS6}{certification})
+    			\end{itemize}
+    			You can find the certification \href{https://www.coursera.org/account/accomplishments/specialization/certificate/XCRZ9PFYVLNH}{here}.
+    		\end{cvsubsection}
+    		
+    		\begin{cvsubsection}{Machine Learning Course}{Coursera, by Andrew Ng}{Nov 2018}
+                You can find the certification \href{https://www.coursera.org/account/accomplishments/verify/JN6PYQVTHEGB}{here}.
+    		\end{cvsubsection}
+    		
+    		\begin{cvsubsection}{Deep Learning Summer School 2018}{University of Tehran}{Aug 2018}
+            	\begin{itemize}
+            	    \item A three-day school, covering different areas of deep learning such as MLP, CNNs, RNNs and GANs with a hands-on using the Keras framework (\href{https://github.com/erfanMhi/Deep-Learning-Summer-School}{hands-on materials}).
+                    \item There are lecturers from Deepmind, Stanford University, UC Berekly and EPFL University.
+            	\end{itemize}
+                You can find the certification \href{https://www.dropbox.com/s/i6jnb73ydrzsjbr/Deeplearning\%20Summer\%20School.jpg?dl=0}{here}.
+    		\end{cvsubsection}
+    		\begin{cvsubsection}{Brain \& Cognition Summer School}{National Brain Mapping Laboratory}{Sep 2018}
+                A one-week school, covering different areas of Cognitive Science, Neuroscience, Computational Neuroscience and how to use various tools for getting data from the brain.
+                You can find the certification \href{https://www.dropbox.com/s/46kc445t36e2yzi/photo_2018-09-07_14-08-06.jpg?dl=0}{here}.
+    		\end{cvsubsection}
+    \end{cvsection}
+    
+    \begin{cvsection}{Select Accomplished Projects}
+    	\begin{cvsubsection}{}{}{}
+        	\begin{itemize}
+        	    \item \textbf{Genetic Neural Architecture Search}: A Genetic Algorithm is used to find the best convolutional neural network for solving classification problem on an unbalanced dataset.
+        	    \item \textbf{Deep Learning For Natural Language Processing:} I solved assignments of deep learning for natural language processing course by Stanford University (\href{https://github.com/erfanMhi/cs224n_Assignments}{repo}).
+        	    \item \textbf{Genetic Algorithms For Credit Scoring}: I implemented a Hybrid Genetic Algorithm for feature selection to solve the credit scoring problem in Python (\href{https://github.com/erfanMhi/Genetic-algorithms-for-credit-scoring}{repo}).
+        	    \item \textbf{Quantum Genetic Algorithm for K-means clustering}: I implemented a Quantum Genetic Algorithm for initializing the first k points for k-means clustering in Python (\href{https://github.com/erfanMhi/A-quantum-inspired-genetic-algorithm-for-k-means-clustering}{repo}).
+        	    \item \textbf{Digit Recognizer}: I created an Ipython notebook and I trained Different CNN architecture in MNIST-Digits dataset, provided by Kaggle, to see how well they work in comparison with each other (\href{https://github.com/erfanMhi/Digit_Recognizer}{repo}).
+        	    \item \textbf{Persian Digit Recognizer}: A well-written Jupyter notebook for learning how you could implement a Convolutional Neural Network for recognizing Persian digits (\href{https://github.com/erfanMhi/Persian-Digits-Recognizer}{repo}).
+        	    \item \textbf{Persian News Classification}: Final project of Natural language processing course by University of Guilan (\href{https://github.com/Nikronic/NLP-Fall18-UOG/}{repo}).
+        	    \item \textbf{Kdnuggets Data Mining}: Solved assignments of Kdnuggets data mining course in jupyter notebook using python (\href{https://github.com/erfanMhi/kdnuggets-data-mining-course}{repo}).
+        	    \item \textbf{Event Scheduling Website}: I created a website for scheduling events using Django framework (\href{https://github.com/erfanMhi/School-Of-AI-Rasht-Chapter-Website}{repo}).
+        	    \item \textbf{Udacity Deep Learning:} I solved assignments of deep learning course by Udacity
+        	    (\href{https://github.com/erfanMhi/Udacity-Deep-Learning-Assignment}{repo}).
+        	    \item \textbf{Music Recommender}: Implemented with Python and it was the final project of Artificial Intelligence course.
+        	    \item \textbf{Minesweeper}: Implemented with Proteus Design Suite for Digital Circuit Design course.
+        	    \item \textbf{Memaraneh}: It was website design projects and I used Angular 5 for implementing the project.
+        	    \item \textbf{MIPS Architecture Design}: I designed MIPS architecture in Proteus Design Suite.
+        	    \item \textbf{Flood it}: Flood it game implementation for FPGA using vhdl and Quartus II.         	    
+                (\href{https://github.com/erfanMhi/Flood-It-in-VHDL}{repo}).
+          	    \item \textbf{Calculator}: Implemented with Assembly language for Micro Processing Design course.
+        	    \item \textbf{ErfGram}: A massaging app, written in Java using Swing framework and Socket programming (\href{https://github.com/erfanMhi/ErfGram}{repo}).
+        	\end{itemize}
+	    \end{cvsubsection}
+
+    \end{cvsection}
+
+    \begin{cvsection}{Honors and Awards}
+    	\begin{cvsubsection}{}{}{}	
+    		\begin{itemize}
+    			\item \textbf{World Robot Challenge 2018 (WRC2018)} \newline
+    			Ranked 6\textsuperscript{th} in Partner Robot Challenge (Virtual Space) category \newline
+    			126 teams from 23 countries participated in WRC2018
+    			\item \textbf{Ranked 1\textsuperscript{st} in class} \newline
+    			Computer Engineering, B.Sc, University of Guilan
+    			\item \textbf{Top Researcher in Computer Engineering Group} \newline
+    			I was announced as Computer Engineering Group top researcher of the University of Guilan.
+    			Computer Engineering, B.Sc, University of Guilan
+    			\item \textbf{Full Scholarship, B.Sc, University of Guilan} \newline
+    			 It is very competitive and students should have a minimum rank of up to 1.5\% through national entrance exam with a total of 500,000 applicants.
+                \item \textbf{National Organization for Development of Exceptional Talents (NODET)} \newline
+                It is very competitive with a province-wide entrance exam.
+    		\end{itemize}
+    	\end{cvsubsection}
+    \end{cvsection}
+
+	
+    \begin{cvsection}{Teaching Assistant Experiences}
+    	\begin{cvsubsection}{Computational Intelligence TA}{University of Guilan}{Sep 2018 -- Feb 2019}
+    	    \setlength{\columnsep}{-2.1in}
+    	    \textbf{Instructor: Dr. M. Shakeri} \newline
+    		My responsibility was teaching implementation of metaheuristic algorithms in Python (\href{https://github.com/Computational-Intelligence-Fall18/Computational-Intelligence-Tutorials}{Class Materials}).
+    	\end{cvsubsection}
+    	
+    	\begin{cvsubsection}{Introduction to Programming TA}{University of Guilan}{Sep 2016 -- Jan 2016}
+    	    \setlength{\columnsep}{-2.1in}
+    	    \textbf{Instructor: Dr. S. M. Shekarian} \newline
+    	    My responsibilities was as follows :
+    	    \begin{itemize}
+                \item Teaching how to solve various algorithmic problems with C++.
+                \item Designing assignments.
+                \item Assessment of student assignments.
+    	   \end{itemize}
+    	\end{cvsubsection}
+    	
+    	\begin{cvsubsection}{Advanced Programming TA}{University of Guilan}{Jan 2016 -- Jun 2016}
+    	    \setlength{\columnsep}{-2.1in}
+    	    \textbf{Instructor: Dr. S. A. Mirroshandel} \newline
+    	    My responsibilities was as follows :
+    	    \begin{itemize}
+                 \item Teaching GUI design, object-oriented and socket programming with java.
+                 \item Designing assignments.
+                 \item Assessment of student assignments.
+    	   \end{itemize}
+    	\end{cvsubsection}
+    	
+    	\begin{cvsubsection}{Data Structures TA}{University of Guilan}{Sep 2017 -- Jan 2017}
+    	    \setlength{\columnsep}{-2.1in}
+    	    \textbf{Instructor: Dr. S. A. Mirroshandel} \newline
+    	    My responsibilities was as follows :
+    	    \begin{itemize}
+                 \item Teaching the implementation of algorithms and data structures with java.
+                 \item Designing assignments.
+                 \item Assessment of student assignments.
+     	   \end{itemize}
+    
+    	\end{cvsubsection}
+    	
+    	\begin{cvsubsection}{Foundations of Data Mining TA}{University of Guilan}{Jan 2017 -- Jun 2017}
+    	    \setlength{\columnsep}{-2.1in}
+    	    \textbf{Instructor: Dr. M. Shakeri} \newline
+    	    My responsibility was the assessment of the student assignments.
+    	\end{cvsubsection}
+    
+    \end{cvsection}
+    
+    \begin{cvsection}{Publications}
+    	\begin{cvsubsection}{}{}{}
+        	E. Miahi, S. A. Mirroshandel, A. Nasr. \textit{Genetic Neural Architecture Search for automatic assessment of human sperm image} (In preparation)
+    	\end{cvsubsection}
+
+    \end{cvsection}
+
+    
+	\begin{cvsection}{Related Experiences}
+    		\begin{cvsubsection}{Dean at School of AI}{Rasht, Iran}{Oct 2018}
+				The School of AI mission is to offer a world-class AI education to anyone on Earth for free. Our doors
+				are open to all those who wish to learn. We are a learning community that spans almost every country
+				dedicated to teaching our students how to make a positive impact in the world using AI technology, whether
+				that's through employment or entrepreneurship.
+				I held two meetups in Rasht. The materials of these meetings can be found in \href{https://github.com/school-of-ai-rasht-chapter/Meetup-Materials}{here}.
+    		\end{cvsubsection}
+    		
+    		\begin{cvsubsection}{Brain and Cognition Association}{University of Guilan}{Aug 2018, present}
+		        \textbf{Vice Chairman of the Modeling and Artificial Intelligence Committee} \newline
+		        I am working on educating students in Artificial Intelligence.
+    		\end{cvsubsection}
+    		
+    \end{cvsection}
+    
+
+	\begin{cvsection}{Employment}
+    	
+    		\begin{cvsubsection}{Front-end Developer}{Nila Software Group, Rasht}{July 2016 – March 2018}
+                I was working on a project called Memaraneh which was a website for introducing decorations and selling appliances.
+    		\end{cvsubsection}
+    
+    \end{cvsection}
+    
+    
+    \begin{cvsection}{Hobbies}
+    	\begin{cvsubsection}{}{}{}
+    	
+    	\begin{itemize}
+    	    \item \textbf{Learning New Things:} I'm passionate about learning itself, so I spent most of my free time learning more about cosmology, philosophy, physics, neuroscience, psychology, and math.  .
+    	    \item \textbf{Sport:} I'm passionate about different types of sports and I'm proficient in Parkour.
+    	    \item \textbf{Music:} Listening to music always makes me feel alive and I am a music enthusiast.
+	    \end{itemize}
+	    
+    	\end{cvsubsection}
+    \end{cvsection}
+	
+    \begin{cvsection}{Languages}
+    	\begin{cvsubsection}{}{}{}
+    	
+    	\begin{itemize}
+    	    \item \textbf{Persian:} Native
+    	    \item \textbf{English:} Fluent
+	    \end{itemize}
+	    
+    	\end{cvsubsection}
+    \end{cvsection}
+    
+%	\newpage
+
+	 \begin{cvsection}{References}
+	 
+ 		\begin{cvsubsection}{Dr. Mojtaba Shakeri}{University of Guilan}{Rasht, Iran}
+		    Assistant Professor \newline
+			Email: \href{mailto:shakeri@guilan.ac.ir}{shakeri@guilan.ac.ir} \newline
+			Home: \href{https://staff.guilan.ac.ir/mshakeri/index.php?a=0\&lg=1}{https://staff.guilan.ac.ir/mshakeri/index.php?a=0\&lg=1}
+    	\end{cvsubsection}
+		
+		\begin{cvsubsection}{Dr. Seyed Abolghasem Mirroshandel}{University of Guilan}{Rasht, Iran}
+		    Assistant Professor \newline
+			Email: \href{mailto:mirroshandel@guilan.ac.ir}{mirroshandel@guilan.ac.ir} \newline
+			Home: \href{https://staff.guilan.ac.ir/mirroshandel/?lg=1}{https://staff.guilan.ac.ir/mirroshandel/?lg=1}
+
+    	\end{cvsubsection}
+    	
+		\begin{cvsubsection}{Prof. Alexis Nasr}{Université Aix Marseille}{Marseille, France}
+		    Professor \newline
+			Email: \href{mailto:Alexis.Nasr@lis-lab.fr}{Alexis.Nasr@lis-lab.fr} \newline
+			Home: \href{http://pageperso.lif.univ-mrs.fr/~alexis.nasr/}{http://pageperso.lif.univ-mrs.fr/~alexis.nasr/}
+    	\end{cvsubsection}
+    	
+
+
+    \end{cvsection}
+	
+\end{document}
